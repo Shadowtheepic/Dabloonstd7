@@ -34,9 +34,33 @@ int main()
     struct point p4;
     p4.x = 200;
     p4.y = 278;
-    struct point p4;
-    p4.x = 290;
-    p4.y = 278;
+    struct point p5;
+    p5.x = 290;
+    p5.y = 278;
+    struct point p6;
+    p6.x = 290;
+    p6.y = 449;
+    struct point p7;
+    p7.x = 658;
+    p7.y = 449;
+    struct point p8;
+    p8.x = 658;
+    p8.y = 622;
+    struct point p9;
+    p9.x = 537;
+    p9.y = 622;
+    struct point p10;
+    p10.x = 537;
+    p10.y = 167;
+    struct point p11;
+    p11.x = 407;
+    p11.y = 167;
+    struct point p12;
+    p12.x = 407;
+    p12.y = 340;
+    struct point p13;
+    p13.x = 800;
+    p13.y = 340;
 
 
     //set up vector to hold path points, push path points into it
@@ -45,6 +69,15 @@ int main()
     pathPoints.push_back(p2);
     pathPoints.push_back(p3);
     pathPoints.push_back(p4);
+    pathPoints.push_back(p5);
+    pathPoints.push_back(p6);
+    pathPoints.push_back(p7);
+    pathPoints.push_back(p8);
+    pathPoints.push_back(p9);
+    pathPoints.push_back(p10);
+    pathPoints.push_back(p11);
+    pathPoints.push_back(p12);
+    pathPoints.push_back(p13);
 
 
     // create game window
